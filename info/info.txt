@@ -1,0 +1,33 @@
+Git Tagging:
+
+Great Information:
+- Tag Schemes:https://semver.org/
+- Cron Tab info: https://crontab.guru/every-minute
+- Docker Info: https://hub.docker.com/_/jenkins
+
+# List tags:
+git tag
+
+# Get tag related info
+git show <tag.name>
+
+# Create Annotated tag
+git tag -a <tag.name> -m "my version 1.4"
+
+# Create tag without annotation
+git tag <tag.name>
+
+# Create tag after the fact for commit
+git tag -a <tag.name> <commit.number>
+
+# Tags must be explicitly pushed
+git push origin <tag.name> or git push origin  --tags
+
+# Delete tags
+git tag -d <tag.name>
+
+# Checkout specific tag
+git checkout <tag.name>>
+
+# Switch and  create new branch
+git switch -c <new.branch.name>
